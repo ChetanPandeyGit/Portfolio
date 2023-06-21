@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./../Styles/About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   const [DynamicClassNameMCA, setDynamicClassNameMCA] = useState("more");
